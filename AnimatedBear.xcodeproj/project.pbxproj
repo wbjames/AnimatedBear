@@ -14,6 +14,8 @@
 		470393A2197A51EF004254D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470393A0197A51EF004254D9 /* Main.storyboard */; };
 		470393A4197A51EF004254D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 470393A3197A51EF004254D9 /* Images.xcassets */; };
 		470393B0197A51EF004254D9 /* AnimatedBearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470393AF197A51EF004254D9 /* AnimatedBearTests.swift */; };
+		470393DF197A58F4004254D9 /* BearImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 470393DE197A58F3004254D9 /* BearImages.atlas */; };
+		479022DE197A747700961998 /* Bear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479022DD197A747700961998 /* Bear.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		470393A9197A51EF004254D9 /* AnimatedBearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedBearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		470393AE197A51EF004254D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		470393AF197A51EF004254D9 /* AnimatedBearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBearTests.swift; sourceTree = "<group>"; };
+		470393DE197A58F3004254D9 /* BearImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BearImages.atlas; sourceTree = "<group>"; };
+		479022DD197A747700961998 /* Bear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bear.swift; path = ../Bear.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +83,14 @@
 		47039395197A51EF004254D9 /* AnimatedBear */ = {
 			isa = PBXGroup;
 			children = (
+				470393DE197A58F3004254D9 /* BearImages.atlas */,
 				47039398197A51EF004254D9 /* AppDelegate.swift */,
 				4703939A197A51EF004254D9 /* GameScene.sks */,
 				4703939C197A51EF004254D9 /* GameScene.swift */,
 				4703939E197A51EF004254D9 /* GameViewController.swift */,
 				470393A0197A51EF004254D9 /* Main.storyboard */,
 				470393A3197A51EF004254D9 /* Images.xcassets */,
+				479022DD197A747700961998 /* Bear.swift */,
 				47039396197A51EF004254D9 /* Supporting Files */,
 			);
 			path = AnimatedBear;
@@ -198,6 +204,7 @@
 				470393A4197A51EF004254D9 /* Images.xcassets in Resources */,
 				4703939B197A51EF004254D9 /* GameScene.sks in Resources */,
 				470393A2197A51EF004254D9 /* Main.storyboard in Resources */,
+				470393DF197A58F4004254D9 /* BearImages.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +225,7 @@
 				4703939D197A51EF004254D9 /* GameScene.swift in Sources */,
 				4703939F197A51EF004254D9 /* GameViewController.swift in Sources */,
 				47039399197A51EF004254D9 /* AppDelegate.swift in Sources */,
+				479022DE197A747700961998 /* Bear.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +344,7 @@
 				INFOPLIST_FILE = AnimatedBear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -347,6 +356,7 @@
 				INFOPLIST_FILE = AnimatedBear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -403,6 +413,7 @@
 				470393B5197A51EF004254D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		470393B6197A51EF004254D9 /* Build configuration list for PBXNativeTarget "AnimatedBearTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +422,7 @@
 				470393B8197A51EF004254D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

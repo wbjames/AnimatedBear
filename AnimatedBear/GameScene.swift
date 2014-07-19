@@ -1,26 +1,25 @@
-//
-//  GameScene.swift
-//  AnimatedBear
-//
-//  Created by wubin on 7/19/14.
-//  Copyright (c) 2014 wubin. All rights reserved.
-//
-
 import SpriteKit
 
 class GameScene: SKScene {
+    
+    
+    
+    @lazy var bear:Bear = Bear()
+
     override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!";
-        myLabel.fontSize = 65;
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+        self.backgroundColor = SKColor.blackColor()
         
-        self.addChild(myLabel)
+        bear.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame))
+        
+        
+        
+        self.addChild(bear)
     }
     
+    
+    
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
-        /* Called when a touch begins */
+        /* Called when a touch begins
         
         for touch: AnyObject in touches {
             let location = touch.locationInNode(self)
@@ -36,9 +35,23 @@ class GameScene: SKScene {
             sprite.runAction(SKAction.repeatActionForever(action))
             
             self.addChild(sprite)
-        }
+        }*/
     }
    
+    override func touchesEnded(touches: NSSet!, withEvent event: UIEvent!) {
+        let touch = touches.anyObject() as UITouch
+        let position = touch.locationInNode(self)
+        var direction:CGFloat
+        if position.x <= bear.position.x {
+            direction = 1
+        }else {
+            direction = -1
+        }
+        
+        bear.xScale = fabs(bear.xScale) * direction
+        
+    }
+    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
     }
