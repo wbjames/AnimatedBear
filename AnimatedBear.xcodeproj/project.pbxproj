@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47039399197A51EF004254D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47039398197A51EF004254D9 /* AppDelegate.swift */; };
+		4703939B197A51EF004254D9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4703939A197A51EF004254D9 /* GameScene.sks */; };
+		4703939D197A51EF004254D9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703939C197A51EF004254D9 /* GameScene.swift */; };
+		4703939F197A51EF004254D9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703939E197A51EF004254D9 /* GameViewController.swift */; };
+		470393A2197A51EF004254D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470393A0197A51EF004254D9 /* Main.storyboard */; };
+		470393A4197A51EF004254D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 470393A3197A51EF004254D9 /* Images.xcassets */; };
+		470393B0197A51EF004254D9 /* AnimatedBearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470393AF197A51EF004254D9 /* AnimatedBearTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		470393AA197A51EF004254D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4703938B197A51EF004254D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47039392197A51EF004254D9;
+			remoteInfo = AnimatedBear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47039393197A51EF004254D9 /* AnimatedBear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedBear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47039397197A51EF004254D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47039398197A51EF004254D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4703939A197A51EF004254D9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4703939C197A51EF004254D9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4703939E197A51EF004254D9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		470393A1197A51EF004254D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		470393A3197A51EF004254D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		470393A9197A51EF004254D9 /* AnimatedBearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedBearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		470393AE197A51EF004254D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		470393AF197A51EF004254D9 /* AnimatedBearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBearTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47039390197A51EF004254D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470393A6197A51EF004254D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4703938A197A51EF004254D9 = {
+			isa = PBXGroup;
+			children = (
+				47039395197A51EF004254D9 /* AnimatedBear */,
+				470393AC197A51EF004254D9 /* AnimatedBearTests */,
+				47039394197A51EF004254D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47039394197A51EF004254D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47039393197A51EF004254D9 /* AnimatedBear.app */,
+				470393A9197A51EF004254D9 /* AnimatedBearTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47039395197A51EF004254D9 /* AnimatedBear */ = {
+			isa = PBXGroup;
+			children = (
+				47039398197A51EF004254D9 /* AppDelegate.swift */,
+				4703939A197A51EF004254D9 /* GameScene.sks */,
+				4703939C197A51EF004254D9 /* GameScene.swift */,
+				4703939E197A51EF004254D9 /* GameViewController.swift */,
+				470393A0197A51EF004254D9 /* Main.storyboard */,
+				470393A3197A51EF004254D9 /* Images.xcassets */,
+				47039396197A51EF004254D9 /* Supporting Files */,
+			);
+			path = AnimatedBear;
+			sourceTree = "<group>";
+		};
+		47039396197A51EF004254D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47039397197A51EF004254D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		470393AC197A51EF004254D9 /* AnimatedBearTests */ = {
+			isa = PBXGroup;
+			children = (
+				470393AF197A51EF004254D9 /* AnimatedBearTests.swift */,
+				470393AD197A51EF004254D9 /* Supporting Files */,
+			);
+			path = AnimatedBearTests;
+			sourceTree = "<group>";
+		};
+		470393AD197A51EF004254D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				470393AE197A51EF004254D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47039392197A51EF004254D9 /* AnimatedBear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470393B3197A51EF004254D9 /* Build configuration list for PBXNativeTarget "AnimatedBear" */;
+			buildPhases = (
+				4703938F197A51EF004254D9 /* Sources */,
+				47039390197A51EF004254D9 /* Frameworks */,
+				47039391197A51EF004254D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedBear;
+			productName = AnimatedBear;
+			productReference = 47039393197A51EF004254D9 /* AnimatedBear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		470393A8197A51EF004254D9 /* AnimatedBearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470393B6197A51EF004254D9 /* Build configuration list for PBXNativeTarget "AnimatedBearTests" */;
+			buildPhases = (
+				470393A5197A51EF004254D9 /* Sources */,
+				470393A6197A51EF004254D9 /* Frameworks */,
+				470393A7197A51EF004254D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				470393AB197A51EF004254D9 /* PBXTargetDependency */,
+			);
+			name = AnimatedBearTests;
+			productName = AnimatedBearTests;
+			productReference = 470393A9197A51EF004254D9 /* AnimatedBearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4703938B197A51EF004254D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = wubin;
+				TargetAttributes = {
+					47039392197A51EF004254D9 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					470393A8197A51EF004254D9 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 47039392197A51EF004254D9;
+					};
+				};
+			};
+			buildConfigurationList = 4703938E197A51EF004254D9 /* Build configuration list for PBXProject "AnimatedBear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4703938A197A51EF004254D9;
+			productRefGroup = 47039394197A51EF004254D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47039392197A51EF004254D9 /* AnimatedBear */,
+				470393A8197A51EF004254D9 /* AnimatedBearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47039391197A51EF004254D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470393A4197A51EF004254D9 /* Images.xcassets in Resources */,
+				4703939B197A51EF004254D9 /* GameScene.sks in Resources */,
+				470393A2197A51EF004254D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470393A7197A51EF004254D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4703938F197A51EF004254D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4703939D197A51EF004254D9 /* GameScene.swift in Sources */,
+				4703939F197A51EF004254D9 /* GameViewController.swift in Sources */,
+				47039399197A51EF004254D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470393A5197A51EF004254D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470393B0197A51EF004254D9 /* AnimatedBearTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		470393AB197A51EF004254D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47039392197A51EF004254D9 /* AnimatedBear */;
+			targetProxy = 470393AA197A51EF004254D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		470393A0197A51EF004254D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				470393A1197A51EF004254D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		470393B1197A51EF004254D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		470393B2197A51EF004254D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		470393B4197A51EF004254D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AnimatedBear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		470393B5197A51EF004254D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AnimatedBear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		470393B7197A51EF004254D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnimatedBear.app/AnimatedBear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnimatedBearTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		470393B8197A51EF004254D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnimatedBear.app/AnimatedBear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnimatedBearTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4703938E197A51EF004254D9 /* Build configuration list for PBXProject "AnimatedBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470393B1197A51EF004254D9 /* Debug */,
+				470393B2197A51EF004254D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		470393B3197A51EF004254D9 /* Build configuration list for PBXNativeTarget "AnimatedBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470393B4197A51EF004254D9 /* Debug */,
+				470393B5197A51EF004254D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		470393B6197A51EF004254D9 /* Build configuration list for PBXNativeTarget "AnimatedBearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470393B7197A51EF004254D9 /* Debug */,
+				470393B8197A51EF004254D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4703938B197A51EF004254D9 /* Project object */;
+}
