@@ -23,11 +23,11 @@ class Bear:SKSpriteNode {
         }
    //     println(walkFrames)
         
-        walkingBear()
+       // walking()
         
     }
     
-    func walkingBear(){
+    func walking(){
         self.removeAllActions()
         println("bear walking steps = \(walkFrames.count)")
         self.runAction(SKAction.repeatActionForever(SKAction.animateWithTextures(walkFrames, timePerFrame: 0.1,
@@ -35,5 +35,8 @@ class Bear:SKSpriteNode {
         
     }
     
-    
+    func moveEnded(){
+        self.removeAllActions()
+        println("move ended")
+    }
 }
